@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0302C4152947F8DF00A3DFCA /* URL.ImageURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0302C4142947F8DF00A3DFCA /* URL.ImageURL.swift */; };
+		0302C4172948027B00A3DFCA /* OptionalImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0302C4162948027B00A3DFCA /* OptionalImage.swift */; };
 		03525BF32938290900372C5C /* CoreGraphics.Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03525BF22938290900372C5C /* CoreGraphics.Utilities.swift */; };
 		03525BF529382D2600372C5C /* EmojiArtExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03525BF429382D2600372C5C /* EmojiArtExtensions.swift */; };
 		03525BF729382DBC00372C5C /* Array.NSItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03525BF629382DBC00372C5C /* Array.NSItemProvider.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0302C4142947F8DF00A3DFCA /* URL.ImageURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.ImageURL.swift; sourceTree = "<group>"; };
+		0302C4162948027B00A3DFCA /* OptionalImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalImage.swift; sourceTree = "<group>"; };
 		03525BF22938290900372C5C /* CoreGraphics.Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphics.Utilities.swift; sourceTree = "<group>"; };
 		03525BF429382D2600372C5C /* EmojiArtExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtExtensions.swift; sourceTree = "<group>"; };
 		03525BF629382DBC00372C5C /* Array.NSItemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.NSItemProvider.swift; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				035D820E2937CFA800F64D89 /* EmojiArtDocumentView.swift */,
+				0302C4162948027B00A3DFCA /* OptionalImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 				03525BF429382D2600372C5C /* EmojiArtExtensions.swift */,
 				03525BF629382DBC00372C5C /* Array.NSItemProvider.swift */,
 				03525BF829382E7B00372C5C /* Character.IsEmoji.swift */,
+				0302C4142947F8DF00A3DFCA /* URL.ImageURL.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -195,6 +201,8 @@
 			files = (
 				035D820F2937CFA800F64D89 /* EmojiArtDocumentView.swift in Sources */,
 				035D820D2937CFA800F64D89 /* EmojiArtApp.swift in Sources */,
+				0302C4152947F8DF00A3DFCA /* URL.ImageURL.swift in Sources */,
+				0302C4172948027B00A3DFCA /* OptionalImage.swift in Sources */,
 				03525BF32938290900372C5C /* CoreGraphics.Utilities.swift in Sources */,
 				035D82212937D30000F64D89 /* EmojiArtDocument.swift in Sources */,
 				035D821C2937CFC700F64D89 /* EmojiArtModel.swift in Sources */,

@@ -48,20 +48,10 @@ class PaletteStore: ObservableObject {
     }
     
     private func storeInUserDefaults() {
-//        UserDefaults.standard.set(palettes.map { [$0.name, $0.emojis, String($0.id)] }, forKey: userDefaultsKey)
         UserDefaults.standard.set(try? JSONEncoder().encode(palettes), forKey: userDefaultsKey)
     }
     
     private func restoreFromUserDefaults() {
-//        if let palettesAsPropertyList = UserDefaults.standard.array(forKey: userDefaultsKey) as? [[String]] {
-//            for paletteAsArray in palettesAsPropertyList {
-//                if paletteAsArray.count == 3, let id = Int(paletteAsArray[2]), !palettes.contains(where: { $0.id == id }) {
-//                    let palette = Palette(name: paletteAsArray[0], emojis: paletteAsArray[1], id: id)
-//                    palettes.append(palette)
-//                }
-//            }
-//        }
-        
         if let jsonData = UserDefaults.standard.data(forKey: userDefaultsKey),
            let decodedPalettes = try? JSONDecoder().decode([Palette].self, from: jsonData) {
             palettes = decodedPalettes
